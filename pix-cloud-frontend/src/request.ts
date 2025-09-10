@@ -5,7 +5,7 @@ import { message } from 'ant-design-vue'
 const myAxios = axios.create({
   baseURL: 'http://localhost:8999/api/',
   timeout: 1000,
-  withCredentials: true
+  withCredentials: true  // 请求时候携带 cookie
 })
 
 // Add a request interceptor
